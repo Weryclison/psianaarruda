@@ -1,0 +1,36 @@
+.sobre {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: 36px;
+  align-items: center;
+  position: relative;
+  margin-bottom: 220px;
+}
+
+.sobre-img {
+  position: relative;
+}
+
+.a-fundo {
+  position: absolute;
+  left: calc(-50vw + 50%);
+  top: 25%;
+  width: 65vw;
+  height: 95%;
+  background-color: var(--marrom);
+  z-index: -1;
+}
+
+.sobre h2,
+.sobre p {
+  margin-bottom: 16px;
+}
+@media (max-width: 1000px) {
+  .sobre {
+    grid-template-columns: 1fr;
+    margin-bottom: 80px;
+  }
+  .a-fundo {
+    display: none;
+  }
+}

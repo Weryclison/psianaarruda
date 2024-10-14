@@ -1,0 +1,54 @@
+.container {
+  max-width: 1280px;
+  padding-left: 84px;
+  padding-right: 84px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+.botao {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: var(--marrom);
+  letter-spacing: 3.8px;
+  border: 2px solid var(--marrom);
+  background-color: transparent;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.botao-2 {
+  color: var(--claro);
+  background-color: transparent;
+  border: 2px solid var(--claro);
+}
+.botao:hover {
+  color: var(--claro);
+  background-color: var(--marrom);
+  transition: color 0.1s, background-color 0.2s !important;
+}
+.botao-2:hover {
+  color: var(--rosa) !important;
+  background-color: var(--claro);
+  transition: color 0.1s, background-color 0.2s !important;
+}
+
+.linha {
+  width: 100%;
+  height: 2px;
+  background-color: var(--marrom);
+}
+@media (max-width: 750px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 281px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

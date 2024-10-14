@@ -1,0 +1,119 @@
+.funcionamento {
+  margin-bottom: 80px;
+  position: relative;
+  overflow: hidden !important;
+}
+.funcionamento h2 {
+  text-align: center;
+}
+.sessao-funciona {
+  position: relative;
+  margin-bottom: 50px;
+  max-width: 410px;
+}
+.sessao-1,
+.sessao-3 {
+  margin-left: 200px;
+}
+.sessao-2 {
+  margin-left: 450px;
+}
+.numero {
+  position: relative;
+  z-index: -1;
+}
+.funcionamento-ttl {
+  margin-top: -140px;
+  margin-left: 50px;
+}
+
+.flower {
+  position: absolute;
+  opacity: 0.5;
+  height: auto;
+}
+
+.flower-1 {
+  top: 20%;
+  left: 10%;
+}
+
+.flower-2 {
+  top: 50%;
+  left: 80%;
+}
+
+.flower-3 {
+  top: 30%;
+  left: 80%;
+}
+
+.flower-4 {
+  top: 70%;
+  left: 15%;
+}
+
+.flower-5 {
+  top: 80%;
+  left: 80%;
+}
+
+.flower-6 {
+  top: 40%;
+  left: 30%;
+}
+
+.rotate {
+  transform: rotate(0deg);
+  transition: transform 0.5s ease-out;
+}
+
+.rotate-animate {
+  transform: rotate(360deg);
+}
+@media (max-width: 1000px) {
+  .sessao-1,
+  .sessao-3 {
+    margin-left: 0px;
+  }
+  .sessao-2 {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .funcionamento-ttl {
+    margin-top: -90px;
+    margin-left: 20px;
+  }
+  .flower-1 {
+    top: 20%;
+    left: 10%;
+    display: none;
+  }
+
+  .flower-2 {
+    top: 40%;
+    left: 70%;
+  }
+
+  .flower-3 {
+    top: 100%;
+    left: 30%;
+  }
+
+  .flower-4 {
+    top: 70%;
+    left: 15%;
+  }
+
+  .flower-5 {
+    top: 80%;
+    left: 90%;
+  }
+
+  .flower-6 {
+    top: 35%;
+    left: -10%;
+  }
+}

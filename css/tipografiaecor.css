@@ -1,0 +1,66 @@
+.font-1-a {
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #8a3705;
+}
+.font-1-b {
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 4rem;
+}
+.font-2-a {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 3.84px;
+  text-transform: uppercase;
+  color: #8a3705;
+}
+.font-2-b {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 170%;
+}
+.font-2-d {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 180%;
+}
+.font-2-c {
+  font-family: "Poppins";
+  font-weight: 200;
+  font-size: 12.5rem;
+  color: #e0cdbc;
+}
+:root {
+  --claro: #f5f3ea;
+  --beje: #fcdfcd;
+  --rosa: #dc697f;
+  --marrom: #8a3705;
+}
+@media (max-width: 450px) {
+  .font-1-a {
+    font-size: 2rem;
+  }
+  .font-2-c {
+    font-size: 8rem;
+  }
+  .font-1-b {
+    font-size: 2rem;
+  }
+}
+.claro {
+  color: var(--claro);
+}
+.beje {
+  color: var(--beje);
+}
+.rosa {
+  color: var(--rosa);
+}
+.marrom {
+  color: var(--marrom);
+}

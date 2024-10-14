@@ -1,0 +1,55 @@
+.footer {
+  background-color: var(--rosa);
+}
+.footer-bg {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .font-2-b {
+  font-weight: 400;
+}
+li {
+  display: flex;
+  gap: 20px;
+}
+.redes {
+  display: flex;
+  gap: 20px;
+  justify-content: right;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+.footer-right {
+  align-content: right;
+  text-align: right;
+  max-width: 380px;
+}
+.footer-logo {
+  margin-bottom: 32px;
+}
+li {
+  margin-bottom: 12px;
+}
+.footer .botao {
+  margin-bottom: 28px;
+}
+@media (max-width: 1000px) {
+  .footer-bg {
+    flex-direction: column;
+  }
+  .footer-right {
+    align-content: left;
+    text-align: left;
+  }
+  .redes {
+    justify-content: left;
+  }
+}
+@media (max-width: 330px) {
+  .footer li {
+    font-size: 0.75rem;
+  }
+}
