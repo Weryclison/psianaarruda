@@ -32,7 +32,6 @@
   opacity: 0.5;
   height: auto;
   max-width: 80px;
-  z-index: -2;
 }
 
 .flower-1 {
@@ -89,9 +88,8 @@
     margin-left: 20px;
   }
   .flower-1 {
-    top: 20%;
-    left: 10%;
-    display: none;
+    top: 10%;
+    left: 70%;
   }
 
   .flower-2 {

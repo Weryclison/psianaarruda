@@ -48,6 +48,9 @@ li {
   .redes {
     justify-content: left;
   }
+  .footer .botao {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 330px) {
   .footer li {
