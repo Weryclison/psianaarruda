@@ -7,7 +7,7 @@ export default function scrollSuave() {
     i.preventDefault();
     const href = i.currentTarget.getAttribute("href");
     const section = document.querySelector(href);
-    const scrollMarginTop = 80;
+    const scrollMarginTop = 100;
     section.style.scrollMarginTop = `${scrollMarginTop}px`;
     section.scrollIntoView({
       behavior: "smooth",

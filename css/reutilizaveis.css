@@ -16,9 +16,10 @@
   background-color: transparent;
   padding: 10px 20px;
   text-align: center;
-  display: inline-block;
+  display: block;
   box-sizing: border-box;
 }
+
 .botao-2 {
   color: var(--claro);
   background-color: transparent;
